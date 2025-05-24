@@ -2,10 +2,10 @@
   "name": "bgjargon-api",
   "version": "1.0.0",
   "description": "Unofficial BGJargon API",
-  "main": "src/server.js",
+  "main": "api/index.js",
   "type": "module",
   "scripts": {
-    "start": "bun src/server.js"
+    "start": "bun api/index.js"
   },
   "dependencies": {
     "axios": "^1.6.0",
